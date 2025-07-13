@@ -1,0 +1,14 @@
+[
+  {
+    "sender": "hr@example.com",
+    "subject": "Your interview schedule",
+    "body": "Hi, your interview is set for next week at 10am...",
+    "label": "未分類"
+  },
+  {
+    "sender": "news@shopping.com",
+    "subject": "🔥 Huge Sale on Electronics!",
+    "body": "Don't miss our biggest sale of the season...",
+    "label": "未分類"
+  }
+]
