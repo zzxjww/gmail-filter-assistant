@@ -11,9 +11,15 @@ source .venv/bin/activate      # 啟用虛擬環境
 
 #### 2. 安裝套件
 
-`pip install -r requirements.txt`
+```bash
+pip install -r requirements.txt
+```
+
 或如果沒成功的話
-`pip install streamlit pandas`
+
+```bash
+pip install streamlit pandas
+```
 
 #### 3. 啟動介面
 
@@ -24,13 +30,15 @@ source .venv/bin/activate      # 啟用虛擬環境
 
 ### 目前架構（待大大大大大修）
 
+```plaintext
 gmail-filter-assistant/
 ├── frontend/
-│ ├── app.py # 主程式：Streamlit 前端邏輯
-│ ├── sample_emails.json # 假資料：模擬 Gmail 郵件
-│ ├── labeled_emails.csv # 使用者標記後的結果（自動產生）
-│ ├── utils.py # 資料處理工具（可選、尚未）
-│ ├── requirements.txt # 套件清單
-│ └── .gitignore
-├── models/ # 模型程式與預測邏輯（
+│   ├── app.py               # 主程式：Streamlit 前端邏輯
+│   ├── sample_emails.json   # 假資料：模擬 Gmail 郵件
+│   ├── labeled_emails.csv   # 使用者標記後的結果（自動產生）
+│   ├── utils.py             # 資料處理工具（可選、尚未）
+│   ├── requirements.txt     # 套件清單
+│   └── .gitignore
+├── models/                  # 模型程式與預測邏輯（由隊友負責）
 └── README.md
+```
