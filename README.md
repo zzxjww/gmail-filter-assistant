@@ -39,6 +39,6 @@ gmail-filter-assistant/
 │   ├── utils.py             # 資料處理工具（可選、尚未）
 │   ├── requirements.txt     # 套件清單
 │   └── .gitignore
-├── models/                  # 模型程式與預測邏輯（由隊友負責）
+├── models/                  # 模型程式與預測邏輯
 └── README.md
 ```
